@@ -11,9 +11,6 @@ int get_1st_weekday(int year)
 
 int main()
 {
-    // Clearing the console and setting the console color to blue background and white text
-    system("cls");
-    system("Color 0B");
 
     // Declaring variables for year, month, day, daysInMonth, weekDay, and startingDay
     int year, month, day, daysInMonth, weekDay = 0, startingDay;
